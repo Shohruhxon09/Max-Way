@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: 'roboto' 'dm sans';
+
+}
+nav{
+    display: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+}
+nav .div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+}
+nav .location, .cart, .uz-i, .user{
+    width: 40px;
+    filter: invert(48%) sepia(7900%) saturate(2406%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+.div1 img{
+    width: 50px;
+}
+.uz-i{
+    filter: none;
+}
+.f-st span{
+    color: blue;
+}
+nav .div1 h2{
+    font-size: 16px;
+}
+.f-st{
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cart{
+    margin-left: 20px;
+}
+.s-nd{
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.carousel{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    object-fit: cover;
+    inset: 0px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.carousel img{
+    box-sizing: border-box;
+    border-radius: 35px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 0%;
+    height: auto;
+}
+.card{
+    width: 300px;
+    height: 600px       ;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.m-box{
+    margin-bottom: 20px;
+}
+.s1{
+    display: flex;
+    justify-content: space-around;
+}
+.card h1{
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.p1{
+    font-family: 'roboto' 'helvatica neue';
+    color: #3e3d3d;
+}
+.p2 span{
+    font-weight: 600;
+    margin-right: 10px;
+}
+.p2{
+    display: flex;
+}
+.b-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    height: 35px;
+    align-items: center;
+
+}
+.b-card button{
+    width: 80px;
+    height: 25px;
+    background-color: #0f1ee9;
+    border-radius: 15px;
+    border: none;
+    margin-bottom:30px;
+}   
+.b-card p{
+    margin-bottom: 30px;
+}
+.s1{
+    display: flex;
+}
+.card{
+    box-shadow: #000000;
+    box-shadow: inset;
+    width: 250px;
+    -webkit-box-shadow: 0px 11px 39px 3px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0px 11px 39px 3px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 11px 39px 3px rgba(0, 0, 0, 0.2);
+border-radius: 15px;
+height: 280px;
+margin-bottom: 25px;
+}
+.card img{
+    margin-bottom: 10px;
+}
+.buttons{
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.buttons button{
+    height: 30px;
+    width: 148px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+}
+.buttons button:hover{
+    color: #7400ae;
+    background-color: #b6b4b4;
+}
+.s1{
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:1075px) {
+    nav h3, h2{
+        display: none;
+    }
+    nav .cart, .uz-i, .location{
+        display: none;
+    }
+    .user{
+        display: none;
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+.futr{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #cecece;
+}
+.futr img{
+    filter: invert(48%) sepia(7900%) saturate(2406%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    width: 60px;
+}
+.futr a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+.b-site{
+    border-top: 1px solid #cecece;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 17vh;
+    align-items: center;
+}
+.b-site h2{
+    color: #888;
+    font-size: 25px;
+}
+.futr a:hover{
+    color: #5856d6;
+}
+nav{
+    color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    align-items: center;
+    font-weight: 900;
+    width: 100%;
+    justify-content: space-around;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+.burger div{
+    height: 3px;
+    width: 25px;
+    background-color: #000;
+    margin: 5px;
+    transition: transform 0.5s;
+}
+ul{
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    list-style: none;
+}
+li{
+    color: #000;
+    margin-left: 10px;
+    margin-left: 25px;
+        font-family: 'roboto' 'dm sans';
+    font-weight: normal;
+    font-size: normal;
+}
+@media (min-width:0) and (max-width:1024px) {
+    .nav-links{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav ul{
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 9vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 10%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        background-color: #ffffff;
+    }
+    nav ul li{
+        opacity: 0;
+            transform: translateX(70px);
+            margin-top: 100px;
+            margin-right: 40px;
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+}
+/* JavaScript styles */
+.nav-active {
+    transform: translate(0);
+}
+@keyframes navLinkMove{
+    from{
+        opacity: 0;
+        transform: translateX(70px);
+    }
+    to{
+        opacity:    1;
+        transform:translate(0);
+    }
+}
+.toggle .line-1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line-2{
+    opacity: 0; 
+}
+.toggle .line-3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+.nav-links{
+    margin-left: 0;
+    width: 350px;
+    height: 60px;
+    align-items: center;
+}
+.b-h{
+    width: 130px;
+}
+.nav-links a{
+    padding-top: 15px;
+}
